@@ -7,7 +7,7 @@
     "dev": "env-cmd .env nodemon src/index.js",
     "start": "env-cmd .env node src/index.js"
   },
-  "author": "Christopher Gomes",
+  "author": "Akash",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.0",
