@@ -6,7 +6,7 @@ const multer  = require('multer')
 const upload = multer()
 
 router.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hai This is Akash!');
 });
 
 router.post("/message", upload.single("file"), (req, res) => {
